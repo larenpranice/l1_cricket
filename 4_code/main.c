@@ -24,7 +24,7 @@ scanf("%d",&m);
 for(i=0;i<m;i++)
 {
     printf("Enter name of batsman%d:\n",i+1);
-    scanf("%s",pl1[i].name);
+    scanf("%19s",pl1[i].name);
     printf("Enter the number of ones scored by player%d:\n ",i+1);
     scanf("%d",&pl1[i].ones);
     printf("Enter the number of twos scored by player%d:\n ",i+1);
@@ -44,7 +44,7 @@ for(i=0;i<m;i++)
    for(i=0;i<n;i++)
    {
        printf("\nEnter name of bowler%d:",i+1);
-       scanf("%s",pl2[i].name);
+       scanf("%19s",pl2[i].name);
        printf("Enter the runs given by the bowler%d:\n ",i+1);
        scanf("%d",&pl2[i].runsgv);
        printf("Enter the overs bowled by the bowler%d:\n",i+1);
